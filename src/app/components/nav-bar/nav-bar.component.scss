@@ -1,20 +1,32 @@
-.nav-bar_container > ul {
-    display: flex;
-    flex-direction: row;
-    font-size: 20px;
+.nav-bar_container {
+    ul  {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+
+        li {
+            margin-right: 20px;
+            list-style: none;
+
+            a {
+                color: white;
+            }
+
+            span {
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
 }
 
-.nav-bar_container > ul > li {
-    margin-right: 20px;
-    list-style: none;
-}
 
-.nav-bar_container > ul > li > a {
-    color: white;
-}
-
-.nav-bar_container > ul > li > span {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+@media screen and (max-width: 390px) {
+    .nav-bar_container {
+        ul {
+            font-size: 15px;
+            align-items: center;
+        }
+    }
 }

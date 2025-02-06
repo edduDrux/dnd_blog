@@ -5,12 +5,14 @@
     justify-content: center;
 }
 
-.main_articles {}
-
-.others_articles {}
-
 header {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 390px) {
+    .container_articles {
+        flex-direction: column;
+    }
 }
