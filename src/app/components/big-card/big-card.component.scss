@@ -1,12 +1,12 @@
 .big-card_container {
-    width: 400px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
     margin: 0px 20px;
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .big-card_title {
@@ -14,12 +14,11 @@
         font-size: 25px;
         font-weight: bold;
         color: white;
-        margin: 10px 0px;
     }
 }
 
 .big-card_text {
-    margin: 10px 0px;
+    margin-top :15px;
 
     p {
         a {
@@ -32,7 +31,9 @@
 .big-card_photo {
     img {
         width: 100%;
-        height: 230px;
+        height: 270px;
+        margin-bottom: 15px;
+
     }
 }
 
