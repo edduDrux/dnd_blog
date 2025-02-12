@@ -6,13 +6,6 @@
     justify-content: center;
 }
 
-header {
-    margin-top: 15px;
-    
-    display: flex;
-    justify-content: center;
-}
-
 @media screen and (max-width: 390px) {
     .container_articles {
         flex-direction: column;

@@ -1,16 +1,18 @@
-<div class="content_container">
 
+<div class="content_container">
+    
     <div class="cover_content">
-        <img src="warlock.jpg" alt="">
+        <img src="{{ photoCover }}" alt="">
     </div>
 
     <div class="title_content">
-        <h1>MEU ARTIGO</h1>
+        <h1>{{ contentTitle }}</h1>
         <hr/>
     </div>
 
     <div class="description_content">
-        <p>Olá Mundo!</p>
+        <a [routerLink]="['']"> << VOLTAR </a>
+        <p>{{ contentDescription }}</p>
     </div>
     
 </div>
