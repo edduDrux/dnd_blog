@@ -4,15 +4,13 @@
 
     margin-top: 20px;
 
-    border: solid 1px #fff;
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .cover_content {
-    border: 1px solid grey;
+    margin-top: 20px;
 
     img {
         width: 500px;
@@ -25,15 +23,43 @@
 }
 
 .title_content {
+    width: 70%;
+    text-align: center;
+
+    margin: 25px 0px 15px 0px;
+
     h1 {
         color: whitesmoke;
     }
 }
 
 .description_content {
+    width: 50%;
+
     margin-top: 15px;
 
     p {
+        margin-top: 15px;
         color: grey;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title_content {
+        width: 95%;
+    }
+
+    .description_content {
+        width: 85%;
+    }
+
+    .cover_content {
+        margin-top: 20px;
+    
+        img {
+            width: 350px;
+            min-width: 450px;
+            height: 250px;
+        }
     }
 }
